@@ -10,3 +10,6 @@ def learn_math(request):
     b = 20
     c = a + b
     return HttpResponse(f"<h1>Answer: {c}</h1>")
+
+def courseOneFn(request):
+    return render(request, "course-one.html")

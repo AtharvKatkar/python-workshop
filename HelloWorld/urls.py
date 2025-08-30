@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/',  views.learn_python),
     path('math/',  views.learn_math),
+    path('templates/',  views.courseOneFn),
 ]
